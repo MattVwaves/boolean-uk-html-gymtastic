@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;}
+
+h2,
+strong {
+    color: rgb(7, 124, 170);
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.header,
+.footer {
+    background-color: rgb(7, 124, 170);
+}
+
+.header .logo,
+.header nav,
+.header ul,
+.header ul li {
+    display: inline
+}
+
+.section1-title{
+    margin-bottom: 10px;
+}
+
+.header {
+    padding: 20px
+}
+
+.header .logo {
+    color: white;
+    font-size: 20px;
+}
+
+.header nav {
+    margin-left: 20px;
+}
+
+.header ul {
+    list-style: none;
+}
+
+.header ul li {
+    margin-right: 20px
+}
+
+.header ul a {
+    color: white;
+    text-decoration: none
+}
+
+.main {
+    padding: 30px
+}
+
+.section1,
+.section2 {
+    padding: 10px
+}
+
+.section1 p {
+    margin-bottom: 10px;
+}
+
+.get-membership {
+    display: inline-block;
+    color: #F77B08;
+    border: solid 1px #F77B08;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px
+}
+
+.social-link {
+    border: solid 1px black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+
+    color: white;
+}
+
+.instagram {
+    background-color: purple;
+    margin-right: 10px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.facebook {
+    background-color: #1877f2;
+    margin-right: 10px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.youtube {
+    background-color: red;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.footer {
+    color: white;
+    padding: 20px 20px;
+    list-style: none;
+}
+
+.popular-features-list,
+.popular-sub-feature {
+    list-style: none;
+    line-height: 20px;
+}
+
+.popular-features {
+    font-weight: bold;
+}
+
+.popular-sub-feature {
+    padding-left: 20px;
+
+}
